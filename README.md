@@ -1,8 +1,6 @@
-# Rotten::Tomatoes
+# Rotten
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rotten`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Rotten is a Ruby gem that allows users to search for details about movies and TV shows from the popular movie review website, Rotten Tomatoes. With Rotten, users can search for a specific movie or TV show and receive information such as the title, release year, cast, and Rotten Tomatoes score. This gem provides an easy-to-use interface for developers who want to integrate Rotten Tomatoes data into their Ruby applications. Simply install the gem and you can start using Rotten to access Rotten Tomatoes data in your code.
 
 ## Installation
 
