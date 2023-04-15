@@ -1,17 +1,16 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rotten/tomatoes/version"
+require "rotten/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rotten-tomatoes"
-  spec.version       = Rotten::Tomatoes::VERSION
+  spec.name          = "rotten"
+  spec.version       = Rotten::VERSION
   spec.authors       = ["Kumar Divyanshu"]
-  spec.email         = ["kumardivyanshu123@gamil.com"]
+  spec.email         = ["kumardivyanshu123@gmail.com"]
 
   spec.summary       = %q{Search Rotten Tomatoes for movies and TV series.}
-  spec.description   = %q{This gem allows you to search Rotten Tomatoes for movies and TV series and get you ID, Score, Year, Cast.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{This gem allows you to search Rotten Tomatoes for movies and TV series and get their ID, Score, Year, and Cast.}
+  spec.homepage      = "https://github.com/div927/rotten-tomatoes"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +19,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata["source_code_uri"] = "https://github.com/div927/rotten-tomatoes"
+    spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/main/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
